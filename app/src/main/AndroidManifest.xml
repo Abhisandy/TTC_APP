@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="online.kaivalya.btkit.kaivalya">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/rcf_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Splash"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+       <!-- <activity
+            android:name=".Events"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_events"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />-->
+        <activity
+            android:name=".Workshops_Saini"
+            android:configChanges="orientation"
+            android:label="Workshops"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+       <!-- <activity
+            android:name=".Event"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_event"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />-->
+        <activity
+            android:name=".EventSaini"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_event_saini"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".AboutKaiv"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Register_saini"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity android:name=".LoginActivityy" />
+        <activity android:name=".RegisterActivity"></activity>
+    </application>
+
+</manifest>

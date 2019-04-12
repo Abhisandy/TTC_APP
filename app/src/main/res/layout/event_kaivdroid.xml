@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:id="@+id/sliding_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/b3"
+        android:orientation="vertical">
+
+
+
+
+        <TextView
+            android:layout_margin="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textColor="#ffffff"
+            android:textSize="25dp"
+            android:textAlignment="center"
+            android:text="TRAINING METHODOLOGY" />
+<me.biubiubiu.justifytext.library.JustifyTextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColor="#fff"
+    android:textSize="20dp"
+    android:text="Modern training aids Projectors, Computers, and working models, various variant of coach corn assemblies and mockups of various variants of coaches are available in Tie Besides class room training, On site training is also imparted at shop floor. Learning behavior is adjudged at the time of induction and all efforts are made to fulfill the learning requirements of the trainees. Performance of each trainee is evaluated at the end of the programme."/>
+    </LinearLayout>
+
+
+</LinearLayout>

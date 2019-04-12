@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:id="@+id/sliding_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/b3"
+        android:orientation="vertical">
+
+
+
+
+        <TextView
+            android:layout_margin="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textSize="25dp"
+            android:textAlignment="center"
+            android:text="INFRASTRUCTURE" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <me.biubiubiu.justifytext.library.JustifyTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:textColor="#fff"
+                    android:text="For effective training, there are well equipped shops and labs like Fitting Shop, Machine Shop. Welding Shop, Paint Shop. Carpentry Shop, Electrical lab, Refrigeration and Air Conditioning lab, Coach Component lab, Automation Lab,
+Electronics lab and Weld Test Lab. All labs are duly furnished with related models
+and working models like A working model of Disc Brake system and Wheel slide protection, Railway Braking and fault trainer, Controlled Discharge Toilet System and Water Circulation System, Centre Buffer Coupler of (LHB) Stainless steel
+coaches in Coach component Lab and Electro-pneumatic trainer kit with PLC in Automation lab has been installed for practical demonstration to the trainees Sufficient Computers are available in Computer lab for the trainees. TTC has one LAB Model room, where major and important components have been Projectors. TTC has an auditorium having seating capacity for 250 persons. It is  used for seminars and extra curricular activities. displayed. There are acoustically well furnished air conditioned class rooms with LCD Now a days. Technical Training Centre is not only imparting training to RCE employees but also sharing the responsibility of Product based training to all zonal railways and production units as per their requirements. Technical Training Centre is established within RCF campus itself in its natural, lush green and peaceful environment"/>
+
+            </ScrollView>
+        </LinearLayout>
+</LinearLayout>
+
+
+</LinearLayout>

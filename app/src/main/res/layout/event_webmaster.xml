@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:id="@+id/sliding_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/b3"
+        android:orientation="vertical">
+
+
+
+
+        <TextView
+            android:layout_margin="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textSize="25dp"
+            android:textAlignment="center"
+            android:text="LIBRARY" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:textSize="20dp"
+            android:text="There is a well furnished library having more than 5000 books on various subjects like Technical, Management, Culture, Religion, Medical, Yoga, literature and Applied trades. Regular news papers like The Indian Express, The Tribune, Punjab Kesri, HT etc and magazines like-India Today, Sports-star, Pratiyogita Darpan, Competition Success Review and Electronics for you (EFU) etc. are always available for enhancement of knowledge of the trainees"/>
+
+    </ScrollView>
+</LinearLayout>
+
+       </LinearLayout>
+
+
+</LinearLayout>

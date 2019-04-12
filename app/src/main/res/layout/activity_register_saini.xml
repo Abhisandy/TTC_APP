@@ -1,0 +1,21 @@
+<LinearLayout
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/grr"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:textColor="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Faculty List"
+        android:textAlignment="center"
+        android:textSize="30sp"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v7.widget.RecyclerView>
+</LinearLayout>
